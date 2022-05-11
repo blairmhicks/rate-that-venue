@@ -2,7 +2,7 @@ Blair Hicks
 Solo project proposal
 TITLE: "Rate That Venue"
 
-DESCRIPTION: This is a website where artists and performers can share information about venues and venue owners to other musicians in the interest of full transparency about pay, working conditions, etc.
+DESCRIPTION: This is a website where artists and performers can share information about venues and venue owners to other musicians in the interest of full transparency about pay, working conditions, etc. Very often venues take advantage of artists and performers because they are in positions of power. This would hopefully help to close that power gap. 
 
 Practically, this will look like a list of venues that can be CRUD'ed. Artists can rate these venues on a scale of 1-10 overall, as well as post other comments (which can also be "CRUD"ed).
 
@@ -19,6 +19,6 @@ FEATURES:
 8. CREATE USER page will look much like the HOME page, but will be empty until the user adds in their information, which will need to be validated. 
 9. Most all pages will have an "All Venues" link up top, allowing the user to re route to the DEFAULT page. Once a user is logged in, they will also see "Add Venue", "Home", and "Logout" at the top of their pages. 
 
-As a MERN project does not require login validations and I've gotten quite a late start, I doubt I will be able to implement all of these features by the deadline. As such, my MINIMUM VIABLE PRODUCT would probably just allow any person using the app to CRUD venues, comments, and ratings. I hope to improve upon this, and other aspects of the website, after my time at coding dojo is done. 
+As a MERN project does not require login validations and I've gotten quite a late start, I doubt I will be able to implement all of these features by the deadline. As such, my MINIMUM VIABLE PRODUCT would probably just allow any person using the app to CRUD venues, comments, and ratings, regardless of user privileges. I hope to improve upon this, and other aspects of the website, after my time at coding dojo is done. 
 
-github link: 
+github link: https://github.com/blairmhicks/rate-that-venue 
