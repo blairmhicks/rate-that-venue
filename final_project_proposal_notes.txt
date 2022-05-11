@@ -1,0 +1,24 @@
+Blair Hicks
+Solo project proposal
+TITLE: "Rate That Venue"
+
+DESCRIPTION: This is a website where artists and performers can share information about venues and venue owners to other musicians in the interest of full transparency about pay, working conditions, etc.
+
+Practically, this will look like a list of venues that can be CRUD'ed. Artists can rate these venues on a scale of 1-10 overall, as well as post other comments (which can also be "CRUD"ed).
+
+I will be using MERN for this project.
+
+FEATURES: 
+1. DEFAULT page lists all venues, along with their separate websites and average user scores. There is also a link to the ADD VENUE page to add a venue if it's not on the list.
+2. Clicking on a venue's name will bring you to its page, clicking on the website link will bring you to its website.
+3. VENUE page displays one venue's name, website, address, picture, average score, and all user ratings and comments. Users will be able to edit or delete their comments and scores, as well as like or dislike other users' comments and scores.
+4. USER page displays one user's username, avatar, bio, and any comments or ratings they have submitted. If this user is logged in, it becomes their HOME page, and they can edit their information from here.
+5. LOGIN page allows users to log into their account. Successful login brings the user to their HOME page.
+6. CREATE ACCOUNT page will allow someone to make a new account, using a validated email and password. Successful creation brings the user to the CREATE USER page.
+7. ADD VENUE page will look much like the VENUE page, and will allow a user to create a new venue along with its website, address, and picture. Inputs will need to be validated. 
+8. CREATE USER page will look much like the HOME page, but will be empty until the user adds in their information, which will need to be validated. 
+9. Most all pages will have an "All Venues" link up top, allowing the user to re route to the DEFAULT page. Once a user is logged in, they will also see "Add Venue", "Home", and "Logout" at the top of their pages. 
+
+As a MERN project does not require login validations and I've gotten quite a late start, I doubt I will be able to implement all of these features by the deadline. As such, my MINIMUM VIABLE PRODUCT would probably just allow any person using the app to CRUD venues, comments, and ratings. I hope to improve upon this, and other aspects of the website, after my time at coding dojo is done. 
+
+github link: 
