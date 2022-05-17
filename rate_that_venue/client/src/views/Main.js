@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 import VenueForm from '../components/VenueForm';
 import VenueList from '../components/VenueList';
+import {Link} from 'react-router-dom';
+
 const Main = () => {
-    
     const [venues, setVenues] = useState([]);
 
     const removeFromDom = venueId => {
@@ -12,9 +12,13 @@ const Main = () => {
 
     return (
         <div>
-            <VenueForm venues={venues} setVenues={setVenues} />
+            <h1 class="position-relative"> Rate That Venue!</h1>
             <hr/>
-            <VenueList venues={venues} setVenues={setVenues} removeFromDom={removeFromDom} />
+            <center><Link to={'venues/add'}> Add Venue </Link> </center>
+            <hr/>
+            <Link to={'/test'}> Test </Link>
+            <center><VenueList venues={venues} setVenues={setVenues} removeFromDom={removeFromDom} />
+            </center>
         </div>
     )
 }
